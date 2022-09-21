@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 12px;
+    font-size: 40px;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+    margin-top: auto;
+}
