@@ -1,3 +1,7 @@
+:root {
+    --size: 700px;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -20,4 +24,28 @@ body {
     justify-content: center;
     background-color: coral;
     margin-top: auto;
+}
+
+.content {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: var(--size);
+    max-width: var(--size);
+    height: 100vw;
+    width: 100vw;
+}
+
+.pixel {
+    background-color: white;
+}
+
+.clicked {
+    background-color: black;
 }
